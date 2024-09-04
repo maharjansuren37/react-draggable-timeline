@@ -1,0 +1,50 @@
+/* App.css */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .timeline {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+  }
+  
+  .scroller {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background-color: #ccc;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  .marker {
+    width: 5px;
+    height: 20px;
+    background-color: #000;
+    display: inline-block;
+    margin-right: 2px;
+  }
+  
