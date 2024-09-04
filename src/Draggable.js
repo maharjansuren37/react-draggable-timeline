@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { Draggable } from 'gsap/dist/Draggable';
 import './app.css'; // Assuming you have CSS styles defined here
+import img1 from './assets/1.jpg';
 
 gsap.registerPlugin(Draggable);
 
@@ -48,23 +49,16 @@ const DraggableComp = () => {
 
   return (
     <div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
       <div className="container" ref={containerRef}>
+      <img src={img1} />
         <section id="section-1">
           <h1>lorem lipsum</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi tempora eum. Quod voluptates recusandae, similique libero, sunt totam minus est quam vitae, explicabo obcaecati nostrum dolorum ipsam corrupti facere.</p>
         </section>
         <section id="section-2">
-          <div className="img"><img src="./assets/1.jpg" alt="" /></div>
-          <div className="img"><img src="./assets/2.jpg" alt="" /></div>
-          <div className="img"><img src="./assets/3.jpg" alt="" /></div>
+          <div><img src="/assets/1.jpg" alt="" /></div>
+          <div><img src="/assets/2.jpg" alt="" /></div>
+          <div><img src="/assets/3.jpg" alt="" /></div>
         </section>
         <section id="section-3">
           <div className="img"><img src="../../assets/splash-img/adrien-olichon-OMfHdfegWb8-unsplash.jpg" alt="" /></div>

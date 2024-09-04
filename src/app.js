@@ -1,6 +1,7 @@
 import React from "react"
 import { Chrono } from "react-chrono";
 import DraggableComp from "./Draggable";
+import Tabs from "./components/Tabs";
 
 export default function App() {
     // const items = [{
@@ -25,6 +26,6 @@ export default function App() {
         {title: "title", cardTitle: 'card title'},
     ]
     return (
-        <DraggableComp />
+        <Tabs />
     )
 }

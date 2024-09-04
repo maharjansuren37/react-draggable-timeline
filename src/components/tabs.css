@@ -1,0 +1,12 @@
+.btn.active {
+    background-color: green;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+    border: 1px solid black;
+}
