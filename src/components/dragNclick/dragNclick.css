@@ -1,0 +1,13 @@
+.items {
+    display: flex;
+    gap: 2rem;
+}
+
+.item {
+    padding: 2rem;
+    cursor: grab;
+}
+
+.item:nth-child(odd) {
+    background: lightblue;
+}
